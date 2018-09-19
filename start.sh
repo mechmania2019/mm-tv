@@ -2,7 +2,7 @@
 
 set -eu
 
-logpath=/cache/log
+logpath=/cache/log.txt
 
 mkdir -p /cache
 
