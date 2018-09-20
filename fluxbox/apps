@@ -10,8 +10,7 @@
   [Close]       {no}
 [end]
 
-[app] (name=wbar)
-  [Deco]        {NONE}
-  [Layer]       {12}
-  [Close]       {no}
+[app] (name=MM_LinuxCombined_After5.x86_64) (class=MM_LinuxCombined_After5.x86_64)
+  [Maximized]   {yes}
+  [Close]       {yes}
 [end]

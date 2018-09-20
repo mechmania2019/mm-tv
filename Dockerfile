@@ -25,8 +25,6 @@ RUN chmod a+x /init-env.sh
 
 # Configure x apps
 ADD bg.png /bg.png
-ADD logo.png /logo.png
-ADD .wbar /root/.wbar
 
 # Install nvidia drivers
 ADD nvidia-driver.run /tmp/nvidia-driver.run
