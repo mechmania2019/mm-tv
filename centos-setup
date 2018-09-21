@@ -1,0 +1,13 @@
+sudo yum install epel-release
+sudo yum update
+sudo yum groupinstall "Development Tools"
+sudo yum install xorg-* kernel-devel dkms python-pip lsb
+sudo yum groupinstall "KDE Plasma Workspaces"
+sudo systemctl disable firewalld
+sudo reboot
+
+curl -O https://storage.googleapis.com/nvidia-drivers-us-public/GRID/NVIDIA-Linux-x86_64-384.111-grid.run
+sudo bash NVIDIA-Linux-x86_64-384.111-grid.run
+
+sudo nvidia-smi --persistence-mode=1
+nvidia-smi

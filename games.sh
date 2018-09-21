@@ -2,7 +2,7 @@
 
 set -eu
 
-export VISUALIZER="/visualizer/MM_LinuxCombined_After5.x86_64"
+export VISUALIZER="/visualizer/MM2018.x86_64"
 chmod +x $VISUALIZER
 
 password="corgi"

@@ -24,7 +24,6 @@ spec:
         resources:
           limits:
             cpu: 3.6
-            nvidia.com/gpu: 1
           requests:
             cpu: 1
 ---
